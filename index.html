@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>07.1 Variables Madlib Mayhem</title>
+    </head>
+    <body>
+        <h1 id="madlib-title"></h1>
+        <p id="madlib-target"></p>
+        <script>
+        function fillMadlib() {
+            $('#madlib-title').html("Introducing <span class='placeholder'>" + schoolName + "</span>: A School Like No Other");
+            var output = "<span class='placeholder'>" + schoolName + "</span> is one of America's <span class='placeholder'>" + superlativeAdjective2 + "</span> institutions of <span class='placeholder'>" + subject + "</span> learning. The student body is composed of <span class='placeholder'>" + number2 + "</span> <span class='placeholder'>" + pluralTypeOfPerson + "</span>. The <span class='placeholder'>" + superlativeAdjective1 + "</span> students get the best grades. Students can eat lunch in the <span class='placeholder'>" + adjective + "</span> cafeteria, which features boiled <span class='placeholder'>" + food + "</span> and <span class='placeholder'>" + animal + "</span>-meat sandwiches, with all the <span class='placeholder'>" + liquid + "</span> they can drink, for only <span class='placeholder'>" + number1 + "</span> <span class='placeholder'>" + pluralCurrency + "</span>. The principal of the school, <span class='placeholder'>" + famousPerson + "</span>, is raising money to build a new <span class='placeholder'>" + subject + "</span> laboratory and a new <span class='placeholder'>" + sport + "</span> <span class='placeholder'>" + typeOfVenue + "</span>. Any student who goes to this school can consider themselves very <span class='placeholder'>" + adjective + "</span>.";
+            $('#madlib-target').html(output);
+        }</script>
+    </body>
+</html>
